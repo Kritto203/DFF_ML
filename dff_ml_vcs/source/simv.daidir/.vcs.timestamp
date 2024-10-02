@@ -1,0 +1,80 @@
+0 
+31
++cli+1
++itf+/home/cad/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/cad/synopsys/vcs-mx/O-2018.09-SP2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /home/cad/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libvirsim.so /home/cad/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/liberrorinf.so /home/cad/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so /home/cad/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/home/cad/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/cad/synopsys/vcs-mx/O-2018.09-SP2/include
+-Xcbug=0x1
+-debug=1
+-full64
+-gen_obj
+-picarchive
+-sverilog
+/home/cad/synopsys/vcs-mx/O-2018.09-SP2/linux64/bin/vcs1
+DFF.v
+DFF_ML.v
+DFF_ML_tb.v
+33
+sysc_uni_pwd=/home/sv1/K21_CLC/thai/dff/dff_vcs/source
+XDG_SESSION_ID=3429
+XDG_RUNTIME_DIR=/run/user/1005
+XDG_DATA_DIRS=/home/sv1/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/cad/synopsys/verdi/V-2023.12-1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/home/cad/synopsys/vcs-mx/O-2018.09-SP2
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/home/cad/synopsys/vcs-mx/O-2018.09-SP2/linux64
+SYNOPSYS_LC_ROOT=/home/cad/synopsys/lc/U-2022.12-SP3/bin
+SSH_TTY=/dev/pts/17
+SSH_CONNECTION=192.168.0.101 61035 192.168.0.174 2227
+SSH_CLIENT=192.168.0.101 61035 2227
+SNPS_HOME=/home/cad/synopsys
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+ICV_HOME_DIR=/home/cad/synopsys/icvalidator/V-2023.12-SP3-1
+HISTCONTROL=ignoredups
+0
+4
+1723784151 DFF_ML_tb.v
+1723253632 DFF_ML.v
+1723705641 DFF.v
+1551421246 /home/cad/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/vcsdp.tab
+4
+1551422344 /home/cad/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libvirsim.so
+1551421792 /home/cad/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/liberrorinf.so
+1551421768 /home/cad/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so
+1551421789 /home/cad/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libvfs.so
+1723784265 simv.daidir
+-1 partitionlib

@@ -1,0 +1,72 @@
+ 
+                              Library Manager (TM)
+
+                Version U-2022.12-SP3 for linux64 - Apr 18, 2023
+  This release has significant feature enhancements. Please review the Release
+                       Notes associated with this release.
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+set search_path {. ../ref/lib/db_nldm .}
+. ../ref/lib/db_nldm .
+setenv RUN_RESULT /tmp/.tARL19300/_rrMw5ofA
+/tmp/.tARL19300/_rrMw5ofA
+set_current_mismatch_config auto_fix
+1
+source -echo -verbose /home/Workspace/VLSI_LAB_2024/trangnguyen_2024June/synopsys_design_flow_labs/lab03_ic_compilerII/ref/lib/db_nldm/saed14rvt_tt0p8v25c.db
+cÿâÿÿÈÿáÿÿÿìÿÿÿàÿÿÿóÿÿÿàÿÿÿÿÿøÿ÷ÿş'Øÿõÿü'Øÿñÿı'ğÿîÿı"'ÿëÿü('(ÿçÿş0'Xÿåÿı4'Pÿáÿş<'h4şM­~i‘™ånÜ´E“Ì¦ÚÁßŒˆËÊÈlX­zË[¥·jUµÅë?&¾Ò 2ì“«V{ı¥ª¯:I°åÒÿnPtxËÌŒ†é›¥óKPù¡YãïÈLoÙ¤Iz‹–™ÿËşa³ÌVìŸ©DøƒÍ~húMfK5ÿƒğÏÂâƒZ4oÙ*Ë£ıJ£Ì–™Í4œ
+‘Ú÷&³ZÑ¿œõP„ñ?µÿÌz8òÛ–-¾kÜ +ıÇÆ™?UÉhÒ8C#~Ä­¹™Õª¥nqÖ£Aû±0MŸÕ*CÿW?î©ã­‘Vû‹¿U«îMK{7ı‹jéU?}EÕKÀáò(Ê_Â6n™Ù@7Éñ„âUç“î-24¦ÿ‚”¿í}Yz*¾aËÆZÉ¤ÿ”ñcf£æ-›¦·lœ•ù×¿6işmãéø[ÃÌF?4iEÿŒ3èiËßm”Ñ¤I¥é`2R«ÉJÊ¸ãM-õ8Êó¢öå•“‡,•8Z«ÄáUİ¾§g×./ıWcŒZãy]«#n_¥øß¸ÊaS/h…H‹
+näT\
+ıeo¨7,-\q«A‘5Û¤ÆÎTji®–êp:DcæxãÈg6¼‰À¼íˆ…×Cy'¼ü¨…·ğÎW-¼1Ş"­Úğ>Ìx‹ÿ2;iecrbUPİTóâ@uGª:µJç×êNLuZZÄºÛV!‚è¡Hô0…ü"ŠN¯áÿÄ¨ÓÃÚa/€´Phßtí.ê[F*¬Ë^"V›Î…Î(FŒ´DF¢Ç(äW1|èF›£Ğ± ºí×‘êqTuòŒzh¸íÏT{GvæwŒ‰|íÕ‘êI
+ù-Î¢Úè'SÑ)_IA¢§€Õ›Ö,A¢§2ÑşÙ†t1kÅ`Û~|š z:=C!­mD³–8“‰şÂ…DÏ’‰ÍD§=Zk]ù±ŠÍó¡v´ùÛ¤yÔéÛ‡ Í:])ĞØFÌOÛ×E‚æÅHó…ü×j´Ñ#.£wXù%`ôİß!ÑË£}sŠ½Dkˆ5]lkôrAô
+Error: missing close-brace
+        Use error_info for more info. (CMD-013)
+Information: script '/home/Workspace/VLSI_LAB_2024/trangnguyen_2024June/synopsys_design_flow_labs/lab03_ic_compilerII/ref/lib/db_nldm/saed14rvt_tt0p8v25c.db'
+        stopped at line 1 due to error. (CMD-081)
+Extended error info:
+missing close-brace
+    while executing
+"jUµÅë?&¾Ò 2ì“«V{ı¥ª¯:I°åÒÿnPtxËÌŒ†é›¥óKPù¡YãïÈLoÙ¤Iz‹–™ÿËşa³ÌVìŸ©DøƒÍ~húMfK5ÿƒğÏÂâƒZ4oÙ*Ë£ıJ£Ì–™Í4"
+    (file "/home/Workspace/VLSI_LAB_2024/trangnguyen_2024June/synopsys_design_flow_labs/lab03_ic_compilerII/ref/lib/db_nldm/saed14rvt_tt0p8v25c.db" line 1)
+ -- End Extended Error Info
+Information: script '/tmp/.tARL19300/_bsOLSMen'
+        stopped at line 5 due to error. (CMD-081)
+Extended error info:
+missing close-brace
+    while executing
+"jUµÅë?&¾Ò 2ì“«V{ı¥ª¯:I°åÒÿnPtxËÌŒ†é›¥óKPù¡YãïÈLoÙ¤Iz‹–™ÿËşa³ÌVìŸ©DøƒÍ~húMfK5ÿƒğÏÂâƒZ4oÙ*Ë£ıJ£Ì–™Í4"
+    (file "/home/Workspace/VLSI_LAB_2024/trangnguyen_2024June/synopsys_design_flow_labs/lab03_ic_compilerII/ref/lib/db_nldm/saed14rvt_tt0p8v25c.db" line 1)
+    invoked from within
+"source -echo -verbose /home/Workspace/VLSI_LAB_2024/trangnguyen_2024June/synopsys_design_flow_labs/lab03_ic_compilerII/ref/lib/db_nldm/saed14rvt_tt0p8..."
+    (file "/tmp/.tARL19300/_bsOLSMen" line 5)
+ -- End Extended Error Info
+Extended error info:
+missing close-brace
+    while executing
+"jUµÅë?&¾Ò 2ì“«V{ı¥ª¯:I°åÒÿnPtxËÌŒ†é›¥óKPù¡YãïÈLoÙ¤Iz‹–™ÿËşa³ÌVìŸ©DøƒÍ~húMfK5ÿƒğÏÂâƒZ4oÙ*Ë£ıJ£Ì–™Í4"
+    (file "/home/Workspace/VLSI_LAB_2024/trangnguyen_2024June/synopsys_design_flow_labs/lab03_ic_compilerII/ref/lib/db_nldm/saed14rvt_tt0p8v25c.db" line 1)
+    invoked from within
+"source -echo -verbose /home/Workspace/VLSI_LAB_2024/trangnguyen_2024June/synopsys_design_flow_labs/lab03_ic_compilerII/ref/lib/db_nldm/saed14rvt_tt0p8..."
+    (file "/tmp/.tARL19300/_bsOLSMen" line 5)
+    invoked from within
+"source -echo -verbose /tmp/.tARL19300/_bsOLSMen"
+ -- End Extended Error Info
+Maximum memory usage for this session: 82.67 MB
+CPU usage for this session:      1 seconds (  0.00 hours)
+Elapsed time for this session:      1 seconds (  0.00 hours)
+Thank you for using Library Manager.
+

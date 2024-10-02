@@ -1,0 +1,45 @@
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Aug 16 11:57 2024
+VCD+ Writer O-2018.09-SP2_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+The file '/home/sv1/K21_CLC/thai/dff/dff_vcs/source/inter.vpd' was opened successfully.
+0
+Time=                   0, clk=0, D=0, Q=x, Qbar=x
+Time=                   1, clk=1, D=0, Q=0, Qbar=1
+Time=                   2, clk=0, D=0, Q=0, Qbar=1
+Time=                   3, clk=1, D=0, Q=0, Qbar=1
+Time=                   4, clk=0, D=0, Q=0, Qbar=1
+Time=                   5, clk=1, D=0, Q=0, Qbar=1
+Time=                   6, clk=0, D=0, Q=0, Qbar=1
+Time=                   7, clk=1, D=0, Q=0, Qbar=1
+Time=                   8, clk=0, D=1, Q=0, Qbar=1
+Time=                   9, clk=1, D=1, Q=1, Qbar=0
+Time=                  10, clk=0, D=1, Q=1, Qbar=0
+Time=                  11, clk=1, D=1, Q=1, Qbar=0
+Time=                  12, clk=0, D=1, Q=1, Qbar=0
+Time=                  13, clk=1, D=1, Q=1, Qbar=0
+Time=                  14, clk=0, D=1, Q=1, Qbar=0
+Time=                  15, clk=1, D=1, Q=1, Qbar=0
+Time=                  16, clk=0, D=0, Q=1, Qbar=0
+Time=                  17, clk=1, D=0, Q=0, Qbar=1
+Time=                  18, clk=0, D=0, Q=0, Qbar=1
+Time=                  19, clk=1, D=0, Q=0, Qbar=1
+Time=                  20, clk=0, D=0, Q=0, Qbar=1
+Time=                  21, clk=1, D=0, Q=0, Qbar=1
+Time=                  22, clk=0, D=0, Q=0, Qbar=1
+Time=                  23, clk=1, D=0, Q=0, Qbar=1
+Time=                  24, clk=0, D=1, Q=0, Qbar=1
+Time=                  25, clk=1, D=1, Q=1, Qbar=0
+Time=                  26, clk=0, D=1, Q=1, Qbar=0
+Time=                  27, clk=1, D=1, Q=1, Qbar=0
+Time=                  28, clk=0, D=1, Q=1, Qbar=0
+Time=                  29, clk=1, D=1, Q=1, Qbar=0
+Time=                  30, clk=0, D=1, Q=1, Qbar=0
+Time=                  31, clk=1, D=1, Q=1, Qbar=0
+$finish called from file "DFF_ML_tb.v", line 35.
+$finish at simulation time                   32
+Simulation complete, time is 32.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 32
+CPU Time:      0.210 seconds;       Data structure size:   0.0Mb
+Fri Aug 16 12:09:38 2024

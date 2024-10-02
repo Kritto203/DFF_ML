@@ -1,0 +1,1214 @@
+ 
+                              IC Compiler II (TM)
+
+                Version U-2022.12-SP3 for linux64 - Apr 18, 2023
+  This release has significant feature enhancements. Please review the Release
+                       Notes associated with this release.
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Loading user preference file /home/sv1/.synopsys_icc2_gui/preferences.tcl
+icc2_shell> source ../scripts/flow.tcl
+Warning: Pitch 0.600000 for layer MRDL is less than sum(4.000000) of minSpacing(2.000000) and minWidth(2.000000).(saed14rvt_1p9m.tf line:1445) (TECH-223)
+Warning: The value of the pitch attribute of layer MRDL is invalid. Attribute pitch should not be less than sum of attribute minWidth and minSpacing. (saed14rvt_1p9m.tf line 1445) (TECH-050)
+Information: Loading technology file '/home/sv1/K21_CLC/thai/dff/dff_icc/ref/tech/NDM/saed14rvt_1p9m.tf' (FILE-007)
+...Created 2 lib groups
+
+... 2 cell libraries to build.
+
+
+... checking whether need to build cell library: saed14rvt_tt0p8v25c.ndm (1/2)
+... checking whether can reuse library under output directory
+cannot reuse CLIBs/saed14rvt_tt0p8v25c.ndm under output directory: library not exists
+
+... checking whether need to build cell library: saed14rvt_tt0p8v25c_physical_only.ndm (2/2)
+... checking whether can reuse library under output directory
+cannot reuse CLIBs/saed14rvt_tt0p8v25c_physical_only.ndm under output directory: library not exists
+
+... processing cell library: saed14rvt_tt0p8v25c.ndm (1/2)
+... run lm_shell to build the cell library
+...............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+.........................................................................
+created new cell library under output directory: CLIBs/saed14rvt_tt0p8v25c.ndm
+
+... processing cell library: saed14rvt_tt0p8v25c_physical_only.ndm (2/2)
+... run lm_shell to build the cell library
+.....................
+created new cell library under output directory: CLIBs/saed14rvt_tt0p8v25c_physical_only.ndm
+
+
+Information: Successfully built 2 reference libraries: saed14rvt_tt0p8v25c.ndm saed14rvt_tt0p8v25c_physical_only.ndm. (LIB-093)
+Loading verilog file '/home/sv1/K21_CLC/thai/dff/dff_icc/source/DFF_ML_compiled.v'
+Information: Reading Verilog into new design 'DFF_ML' in library 'DFF_ML'. (VR-012)
+Number of modules read: 3
+Top level ports: 4
+Total ports in all modules: 12
+Total nets in all modules: 16
+Total instances in all modules: 9
+Elapsed = 00:00:00.05, CPU = 00:00:00.00
+Information: The design specific attribute override for layer 'M1' is set in the current block 'DFF_ML', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M2' is set in the current block 'DFF_ML', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M3' is set in the current block 'DFF_ML', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M4' is set in the current block 'DFF_ML', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M5' is set in the current block 'DFF_ML', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M6' is set in the current block 'DFF_ML', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M7' is set in the current block 'DFF_ML', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M8' is set in the current block 'DFF_ML', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'M9' is set in the current block 'DFF_ML', because the actual library setting may not be overwritten. (ATTR-12)
+Information: The design specific attribute override for layer 'MRDL' is set in the current block 'DFF_ML', because the actual library setting may not be overwritten. (ATTR-12)
+Using libraries: DFF_ML saed14rvt_tt0p8v25c saed14rvt_tt0p8v25c_physical_only
+Linking block DFF_ML:DFF_ML.design
+Information: User units loaded from library 'saed14rvt_tt0p8v25c' (LNK-040)
+Design 'DFF_ML' was successfully linked.
+Removing existing floorplan objects
+Creating core...
+Core utilization ratio = 72.73%
+Unplacing all cells...
+Creating site array...
+Creating routing tracks...
+Initializing floorplan completed.
+Information: The command 'remove_pg_via_master_rules' cleared the undo history. (UNDO-016)
+No via def rule is found.
+No pattern is found.
+All strategies have been removed.
+All strategy via rules have been removed.
+Information: The command 'create_pg_std_cell_conn_pattern' cleared the undo history. (UNDO-016)
+Successfully create standard cell rail pattern m0_rail_color.
+Successfully set PG strategy m0_rail_strategy_pwr.
+Successfully set PG strategy m0_rail_strategy_gnd.
+Variable M1_stp is defined in -parameters option but not used by any pattern expression.
+Warning: Some defined variables in -parameters option are not used by other options. (PGR-501)
+Successfully create mesh pattern m1_color2_mesh.
+Successfully set PG strategy m1_color2_strategy_gnd.
+Successfully set PG strategy m1_color2_strategy_pwr.
+Successfully set via def rule vias.
+Successfully set strategy via rule vias_rule_pwr.
+Successfully set strategy via rule vias_rule_gnd.
+Sanity check for inputs.
+DRC checking and fixing will be skipped for created shapes.
+Automatic PG net connection through connect_pg_net is disabled.
+Updating PG strategies.
+Updating strategy m0_rail_strategy_gnd.
+Updating strategy m1_color2_strategy_gnd.
+Loading library and design information.
+Number of Standard Cells: 0
+Number of Hard Macros: 0
+Number of Pads: 0
+Creating straps and vias in power plan.
+Creating wire shapes for strategies m1_color2_strategy_gnd .
+Creating wire shapes runtime: 0 seconds
+Blockage cutting and DRC fixing for wire shapes for strategies m1_color2_strategy_gnd .
+Creating via shapes for strategies m1_color2_strategy_gnd .
+Working on strategy m1_color2_strategy_gnd.
+Number of detected intersections: 0
+Total runtime of via shapes creation: 0 seconds
+Creating standard cell rails.
+Creating standard cell rails for strategy m0_rail_strategy_gnd.
+Creating via connection between strategies and existing shapes.
+via connection runtime: 0 seconds.
+Commiting wires and vias.
+Committing wires takes 0.00 seconds.
+Committing vias takes 0.00 seconds.
+Committed 6 wires.
+Committed 12 vias.
+Committed 0 wires for via creation.
+Overall PG creation runtime: 0 seconds.
+Successfully compiled PG.
+Overall runtime: 0 seconds.
+Sanity check for inputs.
+DRC checking and fixing will be skipped for created shapes.
+Automatic PG net connection through connect_pg_net is disabled.
+Updating PG strategies.
+Updating strategy m0_rail_strategy_pwr.
+Updating strategy m1_color2_strategy_pwr.
+Loading library and design information.
+Number of Standard Cells: 0
+Number of Hard Macros: 0
+Number of Pads: 0
+Creating straps and vias in power plan.
+Creating wire shapes for strategies m1_color2_strategy_pwr .
+Creating wire shapes runtime: 0 seconds
+Blockage cutting and DRC fixing for wire shapes for strategies m1_color2_strategy_pwr .
+Creating via shapes for strategies m1_color2_strategy_pwr .
+Working on strategy m1_color2_strategy_pwr.
+Number of detected intersections: 0
+Total runtime of via shapes creation: 0 seconds
+Creating standard cell rails.
+Creating standard cell rails for strategy m0_rail_strategy_pwr.
+Creating via connection between strategies and existing shapes.
+via connection runtime: 0 seconds.
+Commiting wires and vias.
+Committing wires takes 0.00 seconds.
+Committing vias takes 0.00 seconds.
+Committed 7 wires.
+Committed 6 vias.
+Committed 0 wires for via creation.
+Overall PG creation runtime: 0 seconds.
+Successfully compiled PG.
+Overall runtime: 0 seconds.
+WARNING: Layer mapping file warning. Tech layer 'M1_3' mapped in layer mapping file cannot be found in technology section.
+WARNING: Layer mapping file warning. Tech layer 'M2_3' mapped in layer mapping file cannot be found in technology section.
+WARNING: Layer mapping file warning. Tech layer 'M3_3' mapped in layer mapping file cannot be found in technology section.
+WARNING: Layer mapping file warning. Tech layer 'M1_3' mapped in layer mapping file cannot be found in technology section.
+WARNING: Layer mapping file warning. Tech layer 'M2_3' mapped in layer mapping file cannot be found in technology section.
+WARNING: Layer mapping file warning. Tech layer 'M3_3' mapped in layer mapping file cannot be found in technology section.
+
+ mapping = /home/sv1/K21_CLC/thai/dff/dff_icc/ref/tech/star_rc/saed14nm_tf_itf_tluplus.map 
+
+
+Corner: slow
+ early_spec = tlup_max
+ tlup_max = /home/sv1/K21_CLC/thai/dff/dff_icc/ref/tech/star_rc/max/saed14nm_1p9m_Cmax.tluplus 
+ late_spec = tlup_max
+ tlup_max = /home/sv1/K21_CLC/thai/dff/dff_icc/ref/tech/star_rc/max/saed14nm_1p9m_Cmax.tluplus 
+
+
+Corner: fast
+ early_spec = tlup_min
+ tlup_min = /home/sv1/K21_CLC/thai/dff/dff_icc/ref/tech/star_rc/min/saed14nm_1p9m_Cmin.tluplus 
+ late_spec = tlup_min
+ tlup_min = /home/sv1/K21_CLC/thai/dff/dff_icc/ref/tech/star_rc/min/saed14nm_1p9m_Cmin.tluplus 
+
+library = DFF_ML 
+NEX:(WARNING) ccap_threshold is too small, set to 0.1fF
+NEX:(WARNING) ccap_threshold is too small, set to 0.1fF
+Created scenario func_fast for mode func and corner fast
+All analysis types are activated.
+Created scenario func_slow for mode func and corner slow
+All analysis types are activated.
+Scenario func_slow (mode func corner slow) is active for setup/hold/leakage_power/dynamic_power/max_transition/max_capacitance/min_capacitance analysis.
+Scenario func_fast (mode func corner fast) is active for hold/leakage_power/dynamic_power/max_transition/max_capacitance/min_capacitance analysis.
+Warning: Redefining clock 'clk'.  
+        Previously defined at: /home/sv1/K21_CLC/thai/dff/dff_icc/scripts/mcmm.tcl, line 34 (UIC-034)
+Information: Starting 'create_placement' (FLW-8000)
+Information: Time: 2024-08-16 17:19:02 / Session: 0.02 hr / Command: 0.00 hr / Memory: 470 MB (FLW-8100)
+Creating appropriate block views (if needed)...
+Multi-Processing Summary
+  Max number of cores for parent process: 1; hostname: capacitor
+  No distributed processing
+Command Option Settings Summary
+  -floorplan -effort medium
+Information: All hard macros are fixed, no hard macro placement is done. (DPP-416)
+Generating automatic soft blockages for DFF_ML, hor/vert channel sizes are 2.4/2.4
+Warning: Auto blockages in block/VA DFF_ML not created. (DPP-236)
+Placing top level std cells.
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+coarse place 0% done.
+coarse place 100% done.
+Running block placement.
+Floorplan placement done.
+****************************************
+Report : report_placement
+Design : DFF_ML
+Version: U-2022.12-SP3
+Date   : Fri Aug 16 17:19:03 2024
+****************************************
+  ==================
+  Note: Ignoring violations of fixed cells or between fixed pairs of cells. 
+        To include violations of / between fixed cells, disable -ignore_fixed. 
+  ==================
+
+  Wire length report (all)
+  ==================
+  wire length in design DFF_ML: 8.583 microns.
+    number of nets with unassigned pins: 4
+  wire length in design DFF_ML (see through blk pins): 8.583 microns.
+  ------------------
+  Total wire length: 8.583 microns.
+
+  Physical hierarchy violations report
+  ====================================
+  Violations in design DFF_ML:
+     0 cells have placement violation.
+  ------------------------------------
+  Total 0 cells have placement violation.
+
+  Voltage area violations report
+  ====================================
+  Voltage area placement violations in design DFF_ML:
+     0 cells placed outside the voltage area which they belong to.
+  ------------------------------------
+  Total 0 macro cells placed outside the voltage area which they belong to.
+
+  Hard macro to hard macro overlap report
+  =======================================
+  HM to HM overlaps in design DFF_ML: 0
+  ---------------------------------------
+  Total hard macro to hard macro overlaps: 0
+
+Information: Default error view DFF_ML_dpplace.err is created in GUI error browser. (DPP-054)
+Information: Elapsed time for create_placement excluding pending time: 00:00:00.56. (DPUI-902)
+Information: CPU time for create_placement : 00:00:00.53. (DPUI-903)
+Information: Peak memory usage for create_placement : 563 MB. (DPUI-904)
+Information: Ending 'create_placement' (FLW-8001)
+Information: Time: 2024-08-16 17:19:03 / Session: 0.02 hr / Command: 0.00 hr / Memory: 564 MB (FLW-8100)
+Information: Starting 'legalize_placement' (FLW-8000)
+Information: Time: 2024-08-16 17:19:03 / Session: 0.02 hr / Command: 0.00 hr / Memory: 564 MB (FLW-8100)
+nplDplc2Placer::setParam(effort,1)
+nplDplc2Placer::setParam(debug,0)
+nplDplc2Placer::setParam(site_check,2)
+nplDplc2Placer::setParam(app_firm_wgt,0)
+Warning: Site master "unit" has neither X-Symmetry nor Y-Symmetry. The "legal orientations" for the standard cells will be limited. (LGL-031)
+Warning: Routing direction of metal layer PO is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+PDC app_options settings =========
+        place.legalize.enable_prerouted_net_check: 1
+        place.legalize.num_tracks_for_access_check: 1
+        place.legalize.use_eol_spacing_for_access_check: 0
+        place.legalize.allow_touch_track_for_access_check: 1
+        place.legalize.reduce_conservatism_in_eol_check: 0
+        place.legalize.preroute_shape_merge_distance: 0.0
+        place.legalize.enable_non_preferred_direction_span_check: 0
+
+Layer M1: cached 0 shapes out of 5 total shapes.
+Layer M2: cached 0 shapes out of 0 total shapes.
+Layer M3: cached 8 shapes out of 8 total shapes.
+Cached 18 vias out of 18 total vias.
+
+Legalizing Top Level Design DFF_ML ... 
+Information: Initializing classic cellmap without advanced rules enabled and without PDC enabled
+Information: The following app options are used in cellmap
+        place.legalize.enable_color_aware_placement : false
+        place.legalize.use_nll_query_cm : false
+        place.legalize.enable_advanced_legalizer : false
+        place.legalize.enable_prerouted_net_check : true
+        place.legalize.enable_advanced_prerouted_net_check : false
+        place.legalize.always_continue : true
+        place.legalize.limit_legality_checks : false
+        place.common.pnet_aware_density : 1.0000
+        place.common.pnet_aware_min_width : 0.0000
+        place.common.pnet_aware_layers : {}
+        place.common.use_placement_model : false
+        place.common.enable_advanced_placement_model : true
+        cts.placement.cell_spacing_rule_style : maximum
+Warning: Library cell saed14rvt_tt0p8v25c:SAEDRVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Total 0.1000 seconds to build cellmap data
+Information: Creating classic rule checker.
+Warning: Routing direction of metal layer PO is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+=====> Processed 27 ref cells (25 fillers) from library
+
+Bounds/Regions In This Design:
+        Area    Num Cells  Exclusive Name
+ (square um)
+      5.8608            7        Yes DEFAULT_VA
+
+Warning: max_legality_failures=5000 ignored.
+        To use it, set limit_legality_checks to true.
+Warning: max_legality_check_range=500 ignored.
+        To use it, set limit_legality_checks to true.
+Optimizing attract points
+Warning: There is high fragmentation caused by many blockages or fixed cells.
+        The median subrow width (space between blockages) is 33 sites
+        and the median cell width is 21 sites. This makes it difficult for
+        the legalizer to pack in the cells and can result in high
+        displacements and long runtimes.
+Please look for the GIF files that are written out at the end of
+        legalization to see the impact of the fragmentation.
+    Done attract points (0 sec)
+Starting legalizer.
+Warning: There is high fragmentation caused by many blockages or fixed cells.
+        The median subrow width (space between blockages) is 33 sites
+        and the median cell width is 21 sites. This makes it difficult for
+        the legalizer to pack in the cells and can result in high
+        displacements and long runtimes.
+Please look for the GIF files that are written out at the end of
+        legalization to see the impact of the fragmentation.
+Warning: Exclusive bound 'DEFAULT' has no cells.
+Optimizing Exclusive Bound 'DEFAULT_VA' (2/2)
+Warning: There is high fragmentation caused by many blockages or fixed cells.
+        The median subrow width (space between blockages) is 33 sites
+        and the median cell width is 21 sites. This makes it difficult for
+        the legalizer to pack in the cells and can result in high
+        displacements and long runtimes.
+Please look for the GIF files that are written out at the end of
+        legalization to see the impact of the fragmentation.
+    Done Exclusive Bound 'DEFAULT_VA' (2/2) (0 sec)
+Writing GIF plot to file './legalizer_debug_plots/DFF_ML_SITE_unit.001-0001-max_displacements.gif'.
+Writing GIF plot to file './legalizer_debug_plots/DFF_ML_SITE_unit.001-0002-colored_displacements.gif'.
+Legalization complete (0 total sec)
+
+****************************************
+  Report : Placement Attempts
+  Site   : unit
+****************************************
+
+number of cells:                      7
+number of references:                27
+number of site rows:                  4
+number of locations attempted:       47
+number of locations failed:           0  (0.0%)
+
+Legality of references at locations:
+0 references had failures.
+
+Legality of references in rows:
+0 references had row failures.
+
+****************************************
+  Report : Cell Displacements
+****************************************
+
+number of cells aggregated:           7 (96 total sites)
+avg row height over cells:        0.600 um
+rms cell displacement:            0.273 um ( 0.45 row height)
+rms weighted cell displacement:   0.273 um ( 0.45 row height)
+max cell displacement:            0.464 um ( 0.77 row height)
+avg cell displacement:            0.213 um ( 0.36 row height)
+avg weighted cell displacement:   0.213 um ( 0.36 row height)
+number of cells moved:                7
+number of large displacements:        0
+large displacement threshold:     3.000 row height
+
+Displacements of worst 7 cells:
+Cell: Master/Q_reg (SAEDRVT14_FDP_V2LP_0P5)
+  Input location: (0.0007,0.1356)
+  Legal location: (0,0.6)
+  Displacement:   0.464 um ( 0.77 row height)
+Cell: Master/U3 (SAEDRVT14_INV_1)
+  Input location: (0.0273,0.8047)
+  Legal location: (0,1.2)
+  Displacement:   0.396 um ( 0.66 row height)
+Cell: Master/Qbar_reg (SAEDRVT14_FDP_V2LP_0P5)
+  Input location: (0.8872,0.2835)
+  Legal location: (0.888,0)
+  Displacement:   0.284 um ( 0.47 row height)
+Cell: slave/U3 (SAEDRVT14_INV_1)
+  Input location: (0.0001,1.6225)
+  Legal location: (0,1.8)
+  Displacement:   0.178 um ( 0.30 row height)
+Cell: slave/Qbar_reg (SAEDRVT14_FDP_V2LP_0P5)
+  Input location: (0.3878,1.1138)
+  Legal location: (0.37,1.2)
+  Displacement:   0.088 um ( 0.15 row height)
+Cell: U2 (SAEDRVT14_INV_1)
+  Input location: (2.048,1.1877)
+  Legal location: (2.072,1.2)
+  Displacement:   0.027 um ( 0.04 row height)
+Cell: slave/Q_reg (SAEDRVT14_FDP_V2LP_0P5)
+  Input location: (0.6893,1.7962)
+  Legal location: (0.666,1.8)
+  Displacement:   0.024 um ( 0.04 row height)
+
+Legalization succeeded.
+Total Legalizer CPU: 0.987
+Total Legalizer Wall Time: 0.987
+----------------------------------------------------------------
+Information: Ending 'legalize_placement' (FLW-8001)
+Information: Time: 2024-08-16 17:19:04 / Session: 0.02 hr / Command: 0.00 hr / Memory: 564 MB (FLW-8100)
+Information: Starting 'clock_opt' (FLW-8000)
+Information: Time: 2024-08-16 17:19:04 / Session: 0.02 hr / Command: 0.00 hr / Memory: 564 MB (FLW-8100)
+INFO: clock_opt is running in balanced flow mode.
+Warning: Cannot find any max transition constraint on the design. (OPT-070)
+INFO: Total Power Aware Optimization Enabled (Dynamic + Leakage)
+Information: The stitching and editing of coupling caps is turned OFF for design 'DFF_ML:DFF_ML.design'. (TIM-125)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Information: Design Average RC for design DFF_ML  (NEX-011)
+Information: r = 1.772130 ohm/um, via_r = 0.534242 ohm/cut, c = 0.081203 ff/um, cc = 0.000000 ff/um (X dir) (NEX-017)
+Information: r = 2.457131 ohm/um, via_r = 0.410693 ohm/cut, c = 0.085091 ff/um, cc = 0.000000 ff/um (Y dir) (NEX-017)
+Number of Site types in the design = 1
+Setting up Chip Core
+Chip Core shape: (0 0) (24420 24000)
+Number of VARs = 1
+Number of unique PDs = 1
+Number of Power Domains = 1
+Number of Voltage Areas = 1
+Number of supply Nets = 2
+Number of used supplies = 0
+Blocked VAs: 
+TEST: runCore upFront-init
+TEST: runCore upFront-end
+INFO: run stage build_clock (init -> end)
+TEST: runCore bldClkInit-init
+
+
+Information: Starting clock_opt / build_clock (FLW-8000)
+Information: Time: 2024-08-16 17:19:04 / Session: 0.02 hr / Command: 0.00 hr / Memory: 582 MB (FLW-8100)
+
+Information: Starting clock_opt / build_clock / Trial CTS (FLW-8000)
+Information: Time: 2024-08-16 17:19:04 / Session: 0.02 hr / Command: 0.00 hr / Memory: 582 MB (FLW-8100)
+Running clock synthesis step.
+Info: Enabling GR in trial CTO
+************************************************************
+* CTS STEP: Design Initialization for Trial Synthesis
+************************************************************
+Information: All clock objects will be converted from ideal to propagated clock during CTS. (CTS-105)
+Information: CTS will work on the following scenarios. (CTS-101)
+   func_fast    (Mode: func; Corner: fast)
+   func_slow    (Mode: func; Corner: slow)
+Information: CTS will work on all clocks in active scenarios, including 1 master clocks and 0 generated clocks. (CTS-107)
+Output units used in this log:
+   Time        : 1.00ns
+   Resistance  : 1.00MOhm
+   Capacitance : 1.00fF
+   Power       : 1.00pW
+   Length      : 1.00um
+Information: Clock derating is enabled
+
+CTS related app options set by user:
+   cts.common.copy_balance_points_to_missing_modes = true
+   cts.compile.enable_local_skew = true
+   cts.optimize.enable_global_route = true
+   cts.optimize.enable_local_skew = true
+
+Buffer/Inverter reference list for clock tree synthesis:
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_10
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_12
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_16
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_1P5
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_20
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_2
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_3
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_4
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_6
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_8
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_CDC_2
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_CDC_4
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_ECO_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_ECO_2
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_ECO_3
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_ECO_4
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_ECO_6
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_ECO_7
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_ECO_8
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_S_0P5
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_S_0P75
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_S_10
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_S_12
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_S_16
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_S_1P5
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_S_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_S_20
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_S_2
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_S_3
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_S_4
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_S_6
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_S_8
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_U_0P5
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_U_0P75
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_UCDC_0P5
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_UCDC_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_DEL_L4D100_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_DEL_L4D100_2
+   saed14rvt_tt0p8v25c/SAEDRVT14_DEL_R2V1_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_DEL_R2V1_2
+   saed14rvt_tt0p8v25c/SAEDRVT14_DEL_R2V2_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_DEL_R2V2_2
+   saed14rvt_tt0p8v25c/SAEDRVT14_DEL_R2V3_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_DEL_R2V3_2
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_PECO_12
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_PECO_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_PECO_2
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_PECO_4
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_PECO_8
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_PS_0P75
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_PS_1P5
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_PS_3
+   saed14rvt_tt0p8v25c/SAEDRVT14_BUF_PS_6
+   saed14rvt_tt0p8v25c/SAEDRVT14_DEL_PR2V2_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_AOBUF_IW_0P75
+   saed14rvt_tt0p8v25c/SAEDRVT14_AOBUF_IW_1P5
+   saed14rvt_tt0p8v25c/SAEDRVT14_AOBUF_IW_3
+   saed14rvt_tt0p8v25c/SAEDRVT14_AOBUF_IW_6
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_0P5
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_0P75
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_10
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_12
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_16
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_1P5
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_20
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_2
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_3
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_4
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_6
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_8
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_ECO_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_ECO_2
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_ECO_3
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_ECO_4
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_ECO_6
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_ECO_8
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_0P5
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_0P75
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_10
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_12
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_16
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_1P5
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_20
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_2
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_3
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_4
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_5
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_6
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_7
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_8
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_S_9
+   saed14rvt_tt0p8v25c/SAEDRVT14_AOINV_IW_0P5
+   saed14rvt_tt0p8v25c/SAEDRVT14_AOINV_IW_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_AOINV_IW_2
+   saed14rvt_tt0p8v25c/SAEDRVT14_AOINV_IW_4
+   saed14rvt_tt0p8v25c/SAEDRVT14_AOINV_IW_6
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_PECO_12
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_PECO_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_PECO_2
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_PECO_4
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_PECO_8
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_PS_1
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_PS_2
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_PS_3
+   saed14rvt_tt0p8v25c/SAEDRVT14_INV_PS_6
+There is no CTS reference for ICG cells
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Information: 'slow' is identified as primary corner for initial clock tree building. (CTS-103)
+Number of Site types in the design = 1
+Setting up Chip Core
+Chip Core shape: (0 0) (24420 24000)
+Number of VARs = 1
+Number of unique PDs = 1
+Number of Power Domains = 1
+Number of Voltage Areas = 1
+Number of supply Nets = 2
+Number of used supplies = 0
+Blocked VAs: 
+Warning: No clock routing rule is specified. (CTS-038)
+
+Clock cell spacing rule list:
+   No clock cell spacing rule is found.
+Information: The run time for design initialization is 0 hr : 0 min : 0.09 sec, cpu time is 0 hr : 0 min : 0.09 sec. (CTS-104)
+************************************************************
+* CTS STEP: Existing Clock Tree Removal
+************************************************************
+
+No buffer or inverter has been removed.
+Information: The run time for existing clock tree removal is 0 hr : 0 min : 0.00 sec, cpu time is 0 hr : 0 min : 0.00 sec. (CTS-104)
+************************************************************
+* CTS STEP: Clock Tree Initialization
+************************************************************
+Drc Mode Option: auto
+Information: Initializing classic cellmap without advanced rules enabled and with PDC enabled
+Information: The following app options are used in cellmap
+        place.legalize.enable_color_aware_placement : false
+        place.legalize.use_nll_query_cm : false
+        place.legalize.enable_advanced_legalizer : false
+        place.legalize.enable_prerouted_net_check : true
+        place.legalize.enable_advanced_prerouted_net_check : false
+        place.legalize.always_continue : true
+        place.legalize.limit_legality_checks : false
+        place.common.pnet_aware_density : 1.0000
+        place.common.pnet_aware_min_width : 0.0000
+        place.common.pnet_aware_layers : {}
+        place.common.use_placement_model : false
+        place.common.enable_advanced_placement_model : true
+        cts.placement.cell_spacing_rule_style : maximum
+Warning: Library cell saed14rvt_tt0p8v25c:SAEDRVT14_ISOFSDPQ_PECO_8.frame is missing supply pins. Its power structure cannot be determined. (LGL-050)
+Information: Creating classic rule checker.
+Warning: Routing direction of metal layer PO is neither "horizontal" nor "vertical".  PDC checks will not be performed on this layer. (PDC-003)
+PDC app_options settings =========
+        place.legalize.enable_prerouted_net_check: 1
+        place.legalize.num_tracks_for_access_check: 1
+        place.legalize.use_eol_spacing_for_access_check: 0
+        place.legalize.allow_touch_track_for_access_check: 1
+        place.legalize.reduce_conservatism_in_eol_check: 0
+        place.legalize.preroute_shape_merge_distance: 0.0
+        place.legalize.enable_non_preferred_direction_span_check: 0
+
+Layer M1: cached 0 shapes out of 5 total shapes.
+Layer M2: cached 0 shapes out of 0 total shapes.
+Layer M3: cached 8 shapes out of 8 total shapes.
+Cached 18 vias out of 18 total vias.
+Total 0.1800 seconds to build cellmap data
+INFO: creating 1(r) x 1(c) GridCells YDim 3 XDim 3
+INFO: number of GridCells (0x97297c98): 1
+INFO: creating 1(r) x 1(c) GridCells YDim 3 XDim 3
+INFO: number of GridCells (0x97297c98): 1
+Total 0.0100 seconds to load 7 cell instances into cellmap
+Moveable cells: 7; Application fixed cells: 0; Macro cells: 0; User fixed cells: 0
+Average cell width 1.0149, cell height 0.6000, cell area 0.6089 for total 7 placed and application fixed cells
+Information: Legalizer's PDC rule check is enabled
+Information: Legalizer's advanced rule check is enabled
+
+Start Auto-Exception Derivations...
+ No internal pin was found.
+ No conflict pin was found.
+ No macro pin was found for clock balance point settings.
+ No macro pin was found for disabling self arcs.
+Info: 4 sinks and boundary insts are collected
+Information: The run time for clock tree initialization is 0 hr : 0 min : 0.18 sec, cpu time is 0 hr : 0 min : 0.18 sec. (CTS-104)
+Using the hold scaling of 1.000000 for scenario: CTS_DRC_OFF_SCEN0
+Setting target skew for clock: clk (mode func corner fast) as 0.045000
+Drc Mode Option: auto
+Corner Scaling is off, multiplier is 1.000000
+ORB Clusering Route Center Bias is on
+Automatic Zbuf-CTS Mode: total_powerInformation: Running Max-CTS
+Enable multi-thread Tasks, number of thread is 1
+Info: run cts with the following settings: _runCts 1 _runCto 1 _runSnapClockSinks 1
+Information: The stitching and editing of coupling caps is turned OFF for design 'DFF_ML:DFF_ML.design'. (TIM-125)
+Information: The RC mode used is VR for design 'DFF_ML'. (NEX-022)
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 8, routed nets = 0, across physical hierarchy nets = 0, parasitics cached nets = 2, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
+************************************************************
+Timer Settings:
+Delay Calculation Style:                   auto
+Signal Integrity Analysis:                 disabled
+Timing Window Analysis:                    disabled
+Advanced Waveform Propagation:             disabled
+Variation Type:                            fixed_derate
+Clock Reconvergence Pessimism Removal:     disabled
+Advanced Receiver Model:                   disabled
+ML Acceleration:                           off
+************************************************************
+************************************************************
+* CTS STEP: Clock Cell Relocation
+************************************************************
+Information: Relocated the clock cell 'U2' from (2.07, 1.80) to (1.63, 0.60). (CTS-106)
+A total of 1 clock cells have been relocated
+Information: The RC mode used is VR for design 'DFF_ML'. (NEX-022)
+Information: The run time for clock cell relocation is 0 hr : 0 min : 0.00 sec, cpu time is 0 hr : 0 min : 0.00 sec. (CTS-104)
+Information: The run time for netlink placement is 0 hr : 0 min : 0.00 sec, cpu time is 0 hr : 0 min : 0.00 sec. (CTS-104)
+************************************************************
+* CTS STEP: Gate-By-Gate Clock Tree Synthesis
+************************************************************
+Design rule constraints:
+     max fanout  = 1000000
+Computing criticality for all echelons
+Warning: No clock routing rules were specified. Use set_clock_routing_rules to specify routing rules for accurate clock latency estimation. (OPT-902)
+Num of echelons 2
+  Level 0 Num Nodes: 1
+  Level 1 Num Nodes: 1
+Processing Echelon 1
+Processing Echelon 2
+Warning: Buffert-tree root clk skipped, because it has no valid location
+Warning: Buffert-tree root clk skipped, because it has no valid location
+ZBUF_CTS_SANITY_CHECK_WARNING: Unable to create NBM for clk
+Processing parameter set (max_tran 0.500000 max_cap 0.600000)
+Design scenario: CTS_DRC_OFF_SCEN0 (corner = fast, mode = func)
+Design scenario: CTS_DRC_OFF_SCEN1 (corner = slow, mode = func)
+Zbuf-HFS: gathering all scenarios
+Scenario: Active:Y Setup:Y Leakage:Y Dynamic:Y MaxTran:N (-1) MaxCap:N (-1) Hold:Y Scen=CTS_DRC_OFF_SCEN1 (func:slow)
+Zbuf Constraints: maxTran=inf maxCap=inf
+Max-CTS: All active scenarios
+   Mode: func  Corner: slow  Scenario: CTS_DRC_OFF_SCEN1
+Max-CTS: All active leakage power scenarios
+   Mode: func  Corner: slow  Scenario: CTS_DRC_OFF_SCEN1
+Max-CTS: All active dynamic power scenarios
+   Mode: func  Corner: slow  Scenario: CTS_DRC_OFF_SCEN1
+orb constraints: using power mt scenarios
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+viaR: Return=0
+ORB: timingScenario CTS_DRC_OFF_SCEN1 timingCorner slow
+INFO: Using corner slow for worst leakage corner
+Warning: No default voltage defined in the design, taking it as zero for power calculations. (POW-080)
+Warning: No default voltage defined in the design, taking it as zero for power calculations. (POW-080)
+Warning: No default voltage defined in the design, taking it as zero for power calculations. (POW-080)
+Warning: No default voltage defined in the design, taking it as zero for power calculations. (POW-080)
+Warning: No default voltage defined in the design, taking it as zero for power calculations. (POW-080)
+Warning: No default voltage defined in the design, taking it as zero for power calculations. (POW-080)
+Warning: No default voltage defined in the design, taking it as zero for power calculations. (POW-080)
+Warning: No default voltage defined in the design, taking it as zero for power calculations. (POW-080)
+Warning: No default voltage defined in the design, taking it as zero for power calculations. (POW-080)
+Warning: No default voltage defined in the design, taking it as zero for power calculations. (POW-080)
+Note - message 'POW-080' limit (10) exceeded. Remainder will be suppressed.
+INFO: Using corner slow for worst dynamic corner
+Using default layer M4
+nplLib: sample lib cell area 1.420800
+nplLib: sample lib cell leakage 0.0234399
+new cutoff lpd: 4.05031e-07
+maxCornerId = 2
+corner=slow, tran factor=1.0000 (0.0295 / 0.0295)
+corner=fast, tran factor=0.8848 (0.0261 / 0.0295)
+ORB: Nominal = 0.0053281  Design MT = 0.475000  Target = 0.0294795 (5.533 nominal)  MaxRC = 0.020322
+ORB: Fast Target = 0.009684 ( 1.817 nominal )
+ORB: stageDelay=0.019844, stageLength=1729945
+bmap: stepx = stepy = 30000
+creating bmap
+DB units per micron : 10000
+Core Area = 1 X 1 ()
+Warning: Buffert-tree root clk skipped, because it has no valid location
+Warning: Buffert-tree root clk skipped, because it has no valid location
+Number of Drivers Sized: 0 [0.00%]
+
+-------------------------------------------------------------
+ Echelon 2 gate by gate clock synthesis
+ Gate level 1 clock tree synthesis
+ Driving pin = clk
+ Clocks: 
+     clk (func)
+ Design rule constraints:
+     max transition = 0.500000
+     max capacitance = 600.000000
+ Number of Sinks = 0
+ Number of Gates = 0
+ Number of Loads = 0
+Warning: Buffert-tree root clk skipped, because it has no valid location
+ Added 0 Repeaters (B: 0 I: 0). Built 0 Repeater Levels for driver clk
+ Phase delay: (max r/f: 0.000000/0.002689  min r/f: 0.000000/0.002689) : clk
+Information: The run time for gate-by-gate clock tree synthesis is 0 hr : 0 min : 1.00 sec, cpu time is 0 hr : 0 min : 1.00 sec. (CTS-104)
+************************************************************
+* CTS STEP: DRC Fixing Beyond Exceptions
+************************************************************
+Design rule constraints:
+     max fanout  = 1000000
+Num of echelons 0
+Information: The run time for DRC fixing beyond exceptions is 0 hr : 0 min : 0.04 sec, cpu time is 0 hr : 0 min : 0.04 sec. (CTS-104)
+There are 0 buffers and 0 inverters added (total area 0.00) by Clock Tree Synthesis.
+Information: 0 out of 1 clock cells have been moved due to NDR or via ladder related legalization rules.
+Info: Clock cell and register co-legalization is disabled since advanced legalizer is disabled.
+==============================Displacement Report for clock sink==============================
+Clock sink moved: 0 out of 4, orientation changed without moving: 0
+Clock sink displacement max = 0.000000 um, average = 0.000000 um
+Clock sink with large displacement: 0 (Threshold: 1.800000 um)
+==============================================================================================
+Information: The run time for snapping registers is 0 hr : 0 min : 0.00 sec, cpu time is 0 hr : 0 min : 0.00 sec. (CTS-104)
+**** updating default width (600) to minimum track width (340) on layer M4 ***
+Warning: Could not find corresponding default via contactCode on lower layer enclosure of cut layer to match the track width constraint 0.034 on layer M4. (ZRT-719)
+Warning: Could not find corresponding default via contactCode on upper layer enclosure of cut layer to match the track width constraint 0.034 on layer M4. (ZRT-719)
+**** updating default width (600) to minimum track width (340) on layer M5 ***
+Warning: Could not find corresponding default via contactCode on lower layer enclosure of cut layer to match the track width constraint 0.034 on layer M5. (ZRT-719)
+Warning: Could not find corresponding default via contactCode on upper layer enclosure of cut layer to match the track width constraint 0.034 on layer M5. (ZRT-719)
+**** updating default width (600) to minimum track width (340) on layer M6 ***
+Warning: Could not find corresponding default via contactCode on lower layer enclosure of cut layer to match the track width constraint 0.034 on layer M6. (ZRT-719)
+Warning: Could not find corresponding default via contactCode on upper layer enclosure of cut layer to match the track width constraint 0.034 on layer M6. (ZRT-719)
+**** updating default width (600) to minimum track width (340) on layer M7 ***
+Warning: Could not find corresponding default via contactCode on lower layer enclosure of cut layer to match the track width constraint 0.034 on layer M7. (ZRT-719)
+Warning: Could not find corresponding default via contactCode on upper layer enclosure of cut layer to match the track width constraint 0.034 on layer M7. (ZRT-719)
+**** updating default width (600) to minimum track width (340) on layer M8 ***
+Warning: Could not find corresponding default via contactCode on lower layer enclosure of cut layer to match the track width constraint 0.034 on layer M8. (ZRT-719)
+Warning: Could not find corresponding default via contactCode on upper layer enclosure of cut layer to match the track width constraint 0.034 on layer M8. (ZRT-719)
+**** updating default width (600) to minimum track width (340) on layer M9 ***
+Warning: Could not find corresponding default via contactCode on lower layer enclosure of cut layer to match the track width constraint 0.034 on layer M9. (ZRT-719)
+Warning: Could not find corresponding default via contactCode on upper layer enclosure of cut layer to match the track width constraint 0.034 on layer M9. (ZRT-719)
+**** updating default width (20000) to minimum track width (340) on layer MRDL ***
+Warning: Could not find corresponding default via contactCode on lower layer enclosure of cut layer to match the track width constraint 0.034 on layer MRDL. (ZRT-719)
+Warning: Could not find corresponding default via contactCode on upper layer enclosure of cut layer to match the track width constraint 0.034 on layer MRDL. (ZRT-719)
+Warning: Unsupported tech file value:  M4:  yDefaultWidth = 0.034000.  yDefaultWidth is less than minimum width.  Increasing yDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M4:  xDefaultWidth = 0.034000.  xDefaultWidth is less than minimum width.  Increasing xDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M5:  yDefaultWidth = 0.034000.  yDefaultWidth is less than minimum width.  Increasing yDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M5:  xDefaultWidth = 0.034000.  xDefaultWidth is less than minimum width.  Increasing xDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M6:  yDefaultWidth = 0.034000.  yDefaultWidth is less than minimum width.  Increasing yDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M6:  xDefaultWidth = 0.034000.  xDefaultWidth is less than minimum width.  Increasing xDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M7:  yDefaultWidth = 0.034000.  yDefaultWidth is less than minimum width.  Increasing yDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M7:  xDefaultWidth = 0.034000.  xDefaultWidth is less than minimum width.  Increasing xDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M8:  yDefaultWidth = 0.034000.  yDefaultWidth is less than minimum width.  Increasing yDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M8:  xDefaultWidth = 0.034000.  xDefaultWidth is less than minimum width.  Increasing xDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M9:  yDefaultWidth = 0.034000.  yDefaultWidth is less than minimum width.  Increasing yDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M9:  xDefaultWidth = 0.034000.  xDefaultWidth is less than minimum width.  Increasing xDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  MRDL:  yDefaultWidth = 0.034000.  yDefaultWidth is less than minimum width.  Increasing yDefaultWidth value to 2.000000. (ZRT-091)
+Warning: Unsupported tech file value:  MRDL:  xDefaultWidth = 0.034000.  xDefaultWidth is less than minimum width.  Increasing xDefaultWidth value to 2.000000. (ZRT-091)
+Cell Min-Routing-Layer = M1
+Cell Max-Routing-Layer = MRDL
+Turn off antenna since no rule is specified
+Information: Option route.detail.force_end_on_preferred_grid will be ignored since none of the layers have preferred grid. (ZRT-703)
+Warning: The step 0.06 of horizontal track TRACK_0 is less than the pitch 0.15 of layer M1. (ZRT-642)
+Warning: The step 0.06 of horizontal track TRACK_1 is less than the pitch 0.3 of layer M2. (ZRT-642)
+Warning: The step 0.06 of horizontal track TRACK_2 is less than the pitch 0.12 of layer M4. (ZRT-642)
+Warning: The step 0.06 of horizontal track TRACK_3 is less than the pitch 0.12 of layer M6. (ZRT-642)
+Warning: The step 0.06 of horizontal track TRACK_4 is less than the pitch 0.12 of layer M8. (ZRT-642)
+Warning: The step 0.06 of horizontal track TRACK_5 is less than the pitch 0.6 of layer MRDL. (ZRT-642)
+Warning: The step 0.074 of vertical track TRACK_6 is less than the pitch 0.3 of layer M3. (ZRT-642)
+Warning: The step 0.074 of vertical track TRACK_7 is less than the pitch 0.12 of layer M5. (ZRT-642)
+Warning: The step 0.074 of vertical track TRACK_8 is less than the pitch 0.12 of layer M7. (ZRT-642)
+Warning: The step 0.074 of vertical track TRACK_9 is less than the pitch 0.12 of layer M9. (ZRT-642)
+Warning: 40 horizontal tracks are found in area (0, 0, 2.442, 2.4) of layer M1. The quantity of tracks is unreasonably high. (ZRT-642)
+Warning: 40 horizontal tracks are found in area (0, 0, 2.442, 2.4) of layer M2. The quantity of tracks is unreasonably high. (ZRT-642)
+Warning: 33 vertical tracks are found in area (0, 0, 2.442, 2.4) of layer M3. The quantity of tracks is unreasonably high. (ZRT-642)
+Warning: 40 horizontal tracks are found in area (0, 0, 2.442, 2.4) of layer M4. The quantity of tracks is unreasonably high. (ZRT-642)
+Warning: 33 vertical tracks are found in area (0, 0, 2.442, 2.4) of layer M5. The quantity of tracks is unreasonably high. (ZRT-642)
+Warning: 40 horizontal tracks are found in area (0, 0, 2.442, 2.4) of layer M6. The quantity of tracks is unreasonably high. (ZRT-642)
+Warning: 33 vertical tracks are found in area (0, 0, 2.442, 2.4) of layer M7. The quantity of tracks is unreasonably high. (ZRT-642)
+Warning: 40 horizontal tracks are found in area (0, 0, 2.442, 2.4) of layer M8. The quantity of tracks is unreasonably high. (ZRT-642)
+Warning: 33 vertical tracks are found in area (0, 0, 2.442, 2.4) of layer M9. The quantity of tracks is unreasonably high. (ZRT-642)
+Warning: 40 horizontal tracks are found in area (0, 0, 2.442, 2.4) of layer MRDL. The quantity of tracks is unreasonably high. (ZRT-642)
+Warning: Port clk of cell DFF_ML
+        is unplaced.  This may impact routing result. (ZRT-740)
+Warning: Port D of cell DFF_ML
+        is unplaced.  This may impact routing result. (ZRT-740)
+Warning: Port Q of cell DFF_ML
+        is unplaced.  This may impact routing result. (ZRT-740)
+Warning: Port Qbar of cell DFF_ML
+        is unplaced.  This may impact routing result. (ZRT-740)
+Warning: Ignore 4 top cell ports with no pins. (ZRT-027)
+Info: number of net_type_blockage: 0 
+Information: Via ladder engine would be activated for pattern must join connection in certain commands. Please refer to man-page for the command list. (ZRT-619)
+Warning: Port  VDD at {{0.846,-0.047} {2.484,0.047}} is out of boundary. Cannot be routed. (ZRT-720)
+Warning: Port  VSS at {{0.846,0.552} {2.484,0.646}} is out of boundary. Cannot be routed. (ZRT-720)
+Warning: Port  VDD at {{-0.042,1.153} {1.596,1.247}} is out of boundary. Cannot be routed. (ZRT-720)
+Warning: Port  VSS at {{-0.042,0.554} {1.596,0.648}} is out of boundary. Cannot be routed. (ZRT-720)
+Warning: Port  VDD at {{-0.042,1.153} {0.338,1.247}} is out of boundary. Cannot be routed. (ZRT-720)
+Warning: Port  VSS at {{-0.042,1.754} {0.338,1.848}} is out of boundary. Cannot be routed. (ZRT-720)
+Warning: Port  VDD at {{0.624,2.353} {2.262,2.447}} is out of boundary. Cannot be routed. (ZRT-720)
+Warning: Port  VDD at {{-0.042,2.353} {0.338,2.447}} is out of boundary. Cannot be routed. (ZRT-720)
+Warning: Port  VSS at {{-0.042,1.752} {0.338,1.846}} is out of boundary. Cannot be routed. (ZRT-720)
+Skipping 9 ectangle_only route guides because they don't cover the design boundary in the layer's  preferred direction.
+Via on layer (VIA4) needs more than one tracks
+Warning: Layer M5 pitch 0.120 may be too small: wire/via-down 0.135, wire/via-up 0.107. (ZRT-026)
+Via on layer (VIA8) needs more than one tracks
+Warning: Layer M8 pitch 0.120 may be too small: wire/via-down 0.107, wire/via-up 0.135. (ZRT-026)
+Wire on layer (M9) needs more than one tracks
+Via on layer (VIA8) needs more than one tracks
+Via on layer (VIARDL) needs more than one tracks
+Warning: Layer M9 pitch 0.120 may be too small: wire/via-down 0.135, wire/via-up 1.570. (ZRT-026)
+Via on layer (VIARDL) needs more than one tracks
+Warning: Layer MRDL pitch 0.600 may be too small: wire/via-down 4.500, wire/via-up 0.600. (ZRT-026)
+Warning: Average track distance 0.058800 is much smaller than pitch 0.300000 on layer M2. (ZRT-616)
+Information: When applicable Min-max layer allow_pin_connection mode will allow paths of length 1.53 outside the layer range. (ZRT-707)
+Information: When applicable Min-max layer allow_pin_connection mode will allow paths of length 1.53 outside the layer range on clock nets. (ZRT-718)
+Information: When applicable layer based tapering will taper up to 0.00 in distance from the pin. (ZRT-706)
+Warning: Standard cell pin SAEDRVT14_BUF_S_10/A has no valid via regions. (ZRT-044)
+Warning: Standard cell pin SAEDRVT14_BUF_ECO_1/A has no valid via regions. (ZRT-044)
+CTO: setting route_reuse..
+************************************************************
+* CTS STEP: Clock Net Global Routing
+************************************************************
+Performing initial clock net global routing ...
+Loading parastics information to the router ...
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+parastics information loaded to the router.
+[End of Loading Timing] Elapsed real time: 0:00:00 
+[End of Loading Timing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+Information: Double patterning layer M1 will be routed with target utilization ratio of 80 per cent. (ZRT-138)
+Information: Double patterning layer M2 will be routed with target utilization ratio of 80 per cent. (ZRT-138)
+Information: Double patterning layer M3 will be routed with target utilization ratio of 85 per cent. (ZRT-138)
+Information: Non-DPT layer M4 will be routed with target utilization ratio of 100 per cent. (ZRT-138)
+Information: Non-DPT layer M5 will be routed with target utilization ratio of 100 per cent. (ZRT-138)
+Information: Non-DPT layer M6 will be routed with target utilization ratio of 100 per cent. (ZRT-138)
+Information: Non-DPT layer M7 will be routed with target utilization ratio of 100 per cent. (ZRT-138)
+Information: Non-DPT layer M8 will be routed with target utilization ratio of 100 per cent. (ZRT-138)
+Information: Non-DPT layer M9 will be routed with target utilization ratio of 100 per cent. (ZRT-138)
+Information: Non-DPT layer MRDL will be routed with target utilization ratio of 100 per cent. (ZRT-138)
+Information: The net parasitics of block DFF_ML are cleared. (TIM-123)
+Total number of global routed clock nets: 2
+Information: The run time for clock net global routing is 0 hr : 0 min : 0.26 sec, cpu time is 0 hr : 0 min : 0.26 sec. (CTS-104)
+Information: The stitching and editing of coupling caps is turned OFF for design 'DFF_ML:DFF_ML.design'. (TIM-125)
+Information: Design DFF_ML has 10 nets, 2 global routed, 0 detail routed. (NEX-024)
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+Information: The RC mode used is CTO for design 'DFF_ML'. (NEX-022)
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 8, routed nets = 2, across physical hierarchy nets = 0, parasitics cached nets = 2, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
+Information: The netlist change observers are disabled for incremental timing updates. (TIM-119)
+Information: The netlist change observers are disabled for incremental extraction. (TIM-126)
+CTSSC route status detected: clock (VR 0, GR 8, DR 0), data (VR 7, GR 0, DR 0); stage = auto, isPostRoute = FALSE
+Warning: Technology layer 'MRDL' setting 'pitch' is not valid (NEX-001)
+**** updating default width (600) to minimum track width (340) on layer M4 ***
+Warning: Could not find corresponding default via contactCode on lower layer enclosure of cut layer to match the track width constraint 0.034 on layer M4. (ZRT-719)
+Warning: Could not find corresponding default via contactCode on upper layer enclosure of cut layer to match the track width constraint 0.034 on layer M4. (ZRT-719)
+**** updating default width (600) to minimum track width (340) on layer M5 ***
+Warning: Could not find corresponding default via contactCode on lower layer enclosure of cut layer to match the track width constraint 0.034 on layer M5. (ZRT-719)
+Warning: Could not find corresponding default via contactCode on upper layer enclosure of cut layer to match the track width constraint 0.034 on layer M5. (ZRT-719)
+**** updating default width (600) to minimum track width (340) on layer M6 ***
+Warning: Could not find corresponding default via contactCode on lower layer enclosure of cut layer to match the track width constraint 0.034 on layer M6. (ZRT-719)
+Warning: Could not find corresponding default via contactCode on upper layer enclosure of cut layer to match the track width constraint 0.034 on layer M6. (ZRT-719)
+**** updating default width (600) to minimum track width (340) on layer M7 ***
+Warning: Could not find corresponding default via contactCode on lower layer enclosure of cut layer to match the track width constraint 0.034 on layer M7. (ZRT-719)
+Warning: Could not find corresponding default via contactCode on upper layer enclosure of cut layer to match the track width constraint 0.034 on layer M7. (ZRT-719)
+**** updating default width (600) to minimum track width (340) on layer M8 ***
+Warning: Could not find corresponding default via contactCode on lower layer enclosure of cut layer to match the track width constraint 0.034 on layer M8. (ZRT-719)
+Warning: Could not find corresponding default via contactCode on upper layer enclosure of cut layer to match the track width constraint 0.034 on layer M8. (ZRT-719)
+**** updating default width (600) to minimum track width (340) on layer M9 ***
+Warning: Could not find corresponding default via contactCode on lower layer enclosure of cut layer to match the track width constraint 0.034 on layer M9. (ZRT-719)
+Warning: Could not find corresponding default via contactCode on upper layer enclosure of cut layer to match the track width constraint 0.034 on layer M9. (ZRT-719)
+**** updating default width (20000) to minimum track width (340) on layer MRDL ***
+Warning: Could not find corresponding default via contactCode on lower layer enclosure of cut layer to match the track width constraint 0.034 on layer MRDL. (ZRT-719)
+Warning: Could not find corresponding default via contactCode on upper layer enclosure of cut layer to match the track width constraint 0.034 on layer MRDL. (ZRT-719)
+Warning: Unsupported tech file value:  M4:  yDefaultWidth = 0.034000.  yDefaultWidth is less than minimum width.  Increasing yDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M4:  xDefaultWidth = 0.034000.  xDefaultWidth is less than minimum width.  Increasing xDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M5:  yDefaultWidth = 0.034000.  yDefaultWidth is less than minimum width.  Increasing yDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M5:  xDefaultWidth = 0.034000.  xDefaultWidth is less than minimum width.  Increasing xDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M6:  yDefaultWidth = 0.034000.  yDefaultWidth is less than minimum width.  Increasing yDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M6:  xDefaultWidth = 0.034000.  xDefaultWidth is less than minimum width.  Increasing xDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M7:  yDefaultWidth = 0.034000.  yDefaultWidth is less than minimum width.  Increasing yDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M7:  xDefaultWidth = 0.034000.  xDefaultWidth is less than minimum width.  Increasing xDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M8:  yDefaultWidth = 0.034000.  yDefaultWidth is less than minimum width.  Increasing yDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M8:  xDefaultWidth = 0.034000.  xDefaultWidth is less than minimum width.  Increasing xDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M9:  yDefaultWidth = 0.034000.  yDefaultWidth is less than minimum width.  Increasing yDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  M9:  xDefaultWidth = 0.034000.  xDefaultWidth is less than minimum width.  Increasing xDefaultWidth value to 0.060000. (ZRT-091)
+Warning: Unsupported tech file value:  MRDL:  yDefaultWidth = 0.034000.  yDefaultWidth is less than minimum width.  Increasing yDefaultWidth value to 2.000000. (ZRT-091)
+Warning: Unsupported tech file value:  MRDL:  xDefaultWidth = 0.034000.  xDefaultWidth is less than minimum width.  Increasing xDefaultWidth value to 2.000000. (ZRT-091)
+Cell Min-Routing-Layer = M1
+Cell Max-Routing-Layer = MRDL
+Turn off antenna since no rule is specified
+Information: Option route.detail.force_end_on_preferred_grid will be ignored since none of the layers have preferred grid. (ZRT-703)
+Warning: The step 0.06 of horizontal track TRACK_0 is less than the pitch 0.15 of layer M1. (ZRT-642)
+Warning: The step 0.06 of horizontal track TRACK_1 is less than the pitch 0.3 of layer M2. (ZRT-642)
+Warning: The step 0.06 of horizontal track TRACK_2 is less than the pitch 0.12 of layer M4. (ZRT-642)
+Warning: The step 0.06 of horizontal track TRACK_3 is less than the pitch 0.12 of layer M6. (ZRT-642)
+Warning: The step 0.06 of horizontal track TRACK_4 is less than the pitch 0.12 of layer M8. (ZRT-642)
+Warning: The step 0.06 of horizontal track TRACK_5 is less than the pitch 0.6 of layer MRDL. (ZRT-642)
+Warning: The step 0.074 of vertical track TRACK_6 is less than the pitch 0.3 of layer M3. (ZRT-642)
+Warning: The step 0.074 of vertical track TRACK_7 is less than the pitch 0.12 of layer M5. (ZRT-642)
+Warning: The step 0.074 of vertical track TRACK_8 is less than the pitch 0.12 of layer M7. (ZRT-642)
+Warning: The step 0.074 of vertical track TRACK_9 is less than the pitch 0.12 of layer M9. (ZRT-642)
+Warning: 40 horizontal tracks are found in area (0, 0, 2.442, 2.4) of layer M1. The quantity of tracks is unreasonably high. (ZRT-642)
+Warning: 40 horizontal tracks are found in area (0, 0, 2.442, 2.4) of layer M2. The quantity of tracks is unreasonably high. (ZRT-642)
+Warning: 33 vertical tracks are found in area (0, 0, 2.442, 2.4) of layer M3. The quantity of tracks is unreasonably high. (ZRT-642)
+Warning: 40 horizontal tracks are found in area (0, 0, 2.442, 2.4) of layer M4. The quantity of tracks is unreaso

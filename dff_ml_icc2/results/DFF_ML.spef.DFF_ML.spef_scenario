@@ -1,0 +1,6 @@
+../results/DFF_ML.spef.DFF_ML.tlup_max_25.spef.gz for scenarios: 
+	 scenario: func_slow, corner type: late/early
+
+../results/DFF_ML.spef.DFF_ML.tlup_min_25.spef.gz for scenarios: 
+	 scenario: func_fast, corner type: late/early
+

@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : DFF_ML
+Version: U-2022.12-SP3
+Date   : Fri Aug 16 13:34:38 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed14rvt_tt0p8v25c (File: /home/sv1/K21_CLC/thai/dff/dff_dc/ref/db_nldm/saed14rvt_tt0p8v25c.db)
+
+Number of ports:                           12
+Number of nets:                            16
+Number of cells:                            9
+Number of combinational cells:              3
+Number of sequential cells:                 4
+Number of macros/black boxes:               0
+Number of buf/inv:                          3
+Number of references:                       3
+
+Combinational area:                  0.532800
+Buf/Inv area:                        0.532800
+Noncombinational area:               3.729600
+Macro/Black Box area:                0.000000
+Net Interconnect area:               1.179277
+
+Total cell area:                     4.262400
+Total area:                          5.441677
+1
